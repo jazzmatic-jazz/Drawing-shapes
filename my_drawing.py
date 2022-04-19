@@ -17,4 +17,11 @@ rect2.set_color("yellow")
 
 rect2.draw()
 
+oval1 = Oval()
+oval1.randomize()
+oval1.draw()
+
+tri = Triangle(5, 5, 100, 5, 100, 200)
+tri.set_color('purple')
+tri.draw()
 paper.display()
